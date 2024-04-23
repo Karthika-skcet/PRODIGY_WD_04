@@ -1,0 +1,34 @@
+
+body {
+  background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHN2aXh3YzM5MXFqeDMzMDgxOWt4dXljMWhncnN4ZG5yNGxmZXQ1cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WmSrrahVLWcec8YcfI/giphy.gif'); /* Replace 'your-background-image-url.jpg' with the URL of your background image */
+  background-size: cover; /* Cover the entire viewport with the background image */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  height: 100vh; /* Set the height of the body to the full viewport height */
+}
+
+.weather-container {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for the container */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Limit the width of the container */
+}
+
+.weather-info {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.weather-info span {
+  font-weight: bold;
+}
+
+.loading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
